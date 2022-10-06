@@ -4,7 +4,7 @@ const get_extender_type = (id_tool, hole, fin_len, crossover = 0) => {
 		var maybe_ext = DATASET.extender.type.uphole
 		var linked_ext = []
 		var final_ext = []
-
+		//looping for formula//
 		for (var i = 0; i < hole_list.length; i++) {
 			var tool = DATASET.extender.type.uphole.find(el => el.id === hole_list[i])
 			linked_ext.push(tool)
