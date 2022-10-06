@@ -24,4 +24,4 @@ Create a new pull request from your forked repository, and you are DONE!
 
 
 ### Team
-Rofi
+Rofi Rahman
