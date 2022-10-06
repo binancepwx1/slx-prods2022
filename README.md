@@ -21,3 +21,7 @@ git commit -m "Relevant message"
 ### Then push
 git push <br>
 Create a new pull request from your forked repository, and you are DONE!
+
+
+### Team
+Rofi
