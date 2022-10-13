@@ -139,10 +139,7 @@ const common_render = (tool_view, tool_id) =>  {
 	}
 }
 
-const backAction = () => {
-	// document.getElementById("calc_form").reset()
-	document.getElementById("form_wrapper").style.display = "block"
-	document.getElementById("result_wrapper").style.display = "none"
+
 }
 
 const doCalculate = () => {
