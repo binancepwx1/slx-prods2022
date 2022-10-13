@@ -18,7 +18,7 @@ self.addEventListener('install', function(e) {
        "./js/bootstrap.min.js",
        "./js/object.js",
        "./js/formula.js",
-       "./js/form.js",
+     
        ].map(url => new Request(url, {credentials: 'same-origin'})))
    })
    )
