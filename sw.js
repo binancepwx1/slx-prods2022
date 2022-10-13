@@ -15,7 +15,6 @@ self.addEventListener('install', function(e) {
        "./css/bootstrap.min.css",
        "./js/jquery-3.4.1.slim.min.js",
        "./js/popper.min.js",
-       "./js/bootstrap.min.js",
        "./js/object.js",
        "./js/formula.js",
      
@@ -28,8 +27,8 @@ self.addEventListener('install', function(e) {
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     caches.match(event.request).then(function(response) {
-      console.log("getting from server main storage cache", event.request.url)
+      console.log("mengambil data dari server penyimpanan utama", event.request.url)
       return response || fetch(event.request)
     })
   )
-})
+}
