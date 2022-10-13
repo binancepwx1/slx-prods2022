@@ -52,13 +52,7 @@ var DATASET = {
                 {"id": 22, "name": "MEXC-CA", "min": 10.60, "max": 12.48, "tolerance": 0, "require_crossover": false},
                 {"id": 23, "name": "MEXC-AB", "min": 13.00, "max": 14.88, "tolerance": 0, "require_crossover": false},
 
-                {"id": 24, "name": "RTLF-FA", "min": 13.75, "max": 14.95, "tolerance": 0, "require_crossover": false},
-                {"id": 25, "name": "RTLF-AA", "min": 14.96, "max": 17.58, "tolerance": 0, "require_crossover": false},
-                {"id": 26, "name": "RTLF-BA", "min": 14.96, "max": 17.58, "tolerance": 0, "require_crossover": false},
-                {"id": 27, "name": "RTLF-BC", "min": 14.96, "max": 17.58, "tolerance": 0, "require_crossover": false},
-                {"id": 28, "name": "RTLF-BD", "min": 14.96, "max": 17.58, "tolerance": 0, "require_crossover": false},
-                {"id": 29, "name": "RTLF-DA", "min": 14.96, "max": 17.58, "tolerance": 0, "require_crossover": false},
-
+               
                 
             ]
         }
